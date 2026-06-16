@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+node_modules/
+.env
+.env.*
+
+# Data and checkpoints
+data/
+checkpoints/
+runs/
+outputs/
+failed_runs/
+logs/
+tmp/
+tmp_pdf_extract.txt
+
+# Model weights and archives
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / local
+.vscode/
+.claude/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local papers / downloaded PDFs
+paper/
+
+# Local proposal / private draft documents
+开题报告_AI生成视频检测_详细版.md
+
+# Comparison experiment heavy artifacts
+comparison_experiment/.venv*/
+comparison_experiment/results/
+comparison_experiment/**/__pycache__/
+comparison_experiment/D3/
+comparison_experiment/ReStraV/
+comparison_experiment/WaveRep/
+comparison_experiment/SPAI/
+comparison_experiment/STALL/
+comparison_experiment/TALL/
+comparison_experiment/tools/

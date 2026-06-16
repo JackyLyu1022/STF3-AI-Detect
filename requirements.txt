@@ -1,0 +1,27 @@
+# PyTorch is installed separately because the correct wheel depends on CUDA/CPU.
+# Verified local GPU stack:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+# Then install the project dependencies:
+#   pip install -r requirements.txt
+
+numpy
+opencv-python
+pandas
+scikit-learn
+scipy
+tqdm
+matplotlib
+seaborn
+einops
+timm
+transformers
+open_clip_torch
+accelerate
+pillow
+python-pptx
+decord
+av
+gradio
+huggingface_hub
+modelscope
+yt-dlp
